@@ -6,7 +6,7 @@ require_relative './exercise_3'
 puts "Exercise 4"
 puts "----------"
 
-s4 = Store.new({
+s4 = Store.create({
   name: "Surrey",
   annual_revenue: 224_000,
   mens_apparel: false,
@@ -14,7 +14,7 @@ s4 = Store.new({
 })
 s4.save
 
-s5 = Store.new({
+s5 = Store.create({
   name: "Whistler",
   annual_revenue: 1_900_000,
   mens_apparel: true,
@@ -22,7 +22,7 @@ s5 = Store.new({
 })
 s5.save
 
-s6 = Store.new({
+s6 = Store.create({
   name: "Yaletown",
   annual_revenue: 430_000,
   mens_apparel: true,
